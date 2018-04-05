@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="analogsea signup form">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AnalogSea</title>
+    <!--Reset to normalize appearance of elements across browsers--> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <img src="https://tf-curricula-prod.s3.amazonaws.com/curricula/5b3249003592fc371bac5c6254b50c9c/FEWD-001/v6/assets2/1.6.2_challenge_signup_form/logo.png" alt="AnalogSea" class="logo">
+    
+    <form role="form" action="/signup/" method="post" accept-charset="UTF-8" class="signup-form">
+        <fieldset>
+            <legend>Sign Up</legend>
+            <label for="user-email">Email</label>
+            <input type="email" name="user-email" placeholder="foo@bar.com" id="user-email" required />
+            <label for="user-email">Password</label>
+            <input type="password" name="user-password" placeholder="1234passw0rd" id="user-password" required />
+            <button type="submit">Sign Up</button>
+        </fieldset>
+    </form>
+    <footer>
+        <p>Already have an account? <a href="/login">Log in</a> </p>
+    </footer>
+</body>
+</html>
